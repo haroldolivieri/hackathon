@@ -1,7 +1,7 @@
 # Hackathon Descomplica
 
 # Sobre
-> O objetivo é que os participantes formem um grupo de no máximo 4 pessoas e desenvolvam um produto relacionado a Educação. No contexto do Hackathon, Educação se refere a a projetos que proporcionem ensinamento e aprendizado entre e/ou para as pessoas. Se você já tiver uma ideia, ótimo! Só não vale trazer projetos prontos ou que já tenham sido iniciados em casa. 
+O objetivo é que os participantes formem um grupo de no máximo 4 pessoas e desenvolvam um produto relacionado a Educação. No contexto do Hackathon, Educação se refere a a projetos que proporcionem ensinamento e aprendizado entre e/ou para as pessoas. Se você já tiver uma ideia, ótimo! Só não vale trazer projetos prontos ou que já tenham sido iniciados em casa. 
 É importante lembrar de trazer seu próprio notebook, e nós garantiremos tomadas para todos!
 
 ## Os projetos desenvolvidos devem se encaixar em uma das categorias abaixo:
@@ -27,3 +27,7 @@
 
 # Sobre Descomplica
 O Descomplica é a maior sala de aula online do Brasil, com foco em vídeo aulas e uma pitada de zoeira! Preparamos mais de 4 milhões de alunos para o Vestibular e o ENEM em 2014, e esse ano o número é ainda maior! **#MelhorTrabalhoDoMundo**
+
+# Local
+Space Coworking - R. da Matriz, 93 - Botafogo, Rio de Janeiro - RJ 22260-100, Brasil 
+Rio de Janeiro, Rio de Janeiro
