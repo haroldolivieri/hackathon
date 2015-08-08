@@ -1,9 +1,9 @@
 ![Hackathon Descomplica](https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/11822477_1183261621688444_8196464261517930647_n.jpg?oh=915d623894283524568bbaac6211a843&oe=564A5AF5&__gda__=1448230493_254356cd33ae18ea6a630deb0df65ca4 "Hackathon Descomplica")
-# Hackathon Descomplica
 
 # Sobre
-O objetivo é que os participantes formem um grupo de no máximo 4 pessoas e desenvolvam um produto relacionado a Educação. No contexto do Hackathon, Educação se refere a a projetos que proporcionem ensinamento e aprendizado entre e/ou para as pessoas. Se você já tiver uma ideia, ótimo! Só não vale trazer projetos prontos ou que já tenham sido iniciados em casa. 
-É importante lembrar de trazer seu próprio notebook, e nós garantiremos tomadas para todos!
+O objetivo é que os participantes formem um grupo de no máximo 4 pessoas e desenvolvam um produto relacionado a Educação. No contexto do Hackathon, Educação se refere a projetos que proporcionem ensinamento e aprendizado entre e/ou para as pessoas. Se você já tiver uma ideia, ótimo! Só não vale trazer projetos prontos ou que já tenham sido iniciados em casa. 
+
+> É importante lembrar de trazer seu próprio notebook, e nós garantiremos tomadas para todos!
 
 ## Os projetos desenvolvidos devem se encaixar em uma das categorias abaixo:
 **Sistemas web**: sistemas desenvolvidos para acesso através da internet, com a utilização das quaisquer tecnologias. No caso de aplicações web, estas deverão ter interface para dispositivos móveis.
