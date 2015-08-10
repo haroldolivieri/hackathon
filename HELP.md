@@ -1,9 +1,9 @@
 # Links de ajuda 
 
-### [emec](http://emec.mec.gov.br/)
+### [Emec](http://emec.mec.gov.br/)
 > Consulta de instituições de Educação Superior no sistema e-MEC. É possivél consultar as IES existentes conforme o estado ou municipio escolhido.
 
-### [inep](http://sistemasideb.inep.gov.br/resultado/)
+### [Inep](http://sistemasideb.inep.gov.br/resultado/)
 > Resultados e Metas de Desenvolvimento da educação basica, Brasil, Estados, municipio ou escolas
 
 ### [Inep Levantamento basico de microdados](http://portal.inep.gov.br/basica-levantamentos-microdados)
@@ -28,10 +28,10 @@
 > Matrículas, coeficientes de distribuição de recursos e receita anual prevista por Estado e Município.
 
 ### [API inep dados abertos](https://github.com/inepdadosabertos/api/)
+> Sem descrição
 
 ### [Portal Brasileiro de dados abertos](http://dados.gov.br/group/educacao)
 > Conjuntos de dados relacionados ao macro-assunto Educação no VCGE. 
-
 
 ### [API Dados da Educação Brasileira (Inep)](http://api.dadosabertosinep.org/)
 > Através dessa API é possível consultar os dados da educação de maneira fácil e rápida!
