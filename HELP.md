@@ -10,10 +10,10 @@
 > Acesso a microdados gerados pelo Inep: Estão disponíveis para consulta os microdados gerados por avaliações, pesquisas e exames realizados pela Inep. Os arquivos podem ser obtidos via download, em formato ASCII, e contêm inputs (canais de entrada) para leitura utilizando os softwares SAS e SPSS.
 
 ### [Inep Data](http://portal.inep.gov.br/inepdata)
-> dados sobre o número de estabelecimentos de ensino, matrículas e funções docentes na educação básica e na superior. Possibilita o acompanhamento das informações pelas instituições e a visualização dos dados segundo categorias administrativas, modalidades de ensino, dentre outras, inclusive numa abrangência geográfica do país e das unidades da federação
+> Dados sobre o número de estabelecimentos de ensino, matrículas e funções docentes na educação básica e na superior. Possibilita o acompanhamento das informações pelas instituições e a visualização dos dados segundo categorias administrativas, modalidades de ensino, dentre outras, inclusive numa abrangência geográfica do país e das unidades da federação
 
-### [Inep Sinopse basica censo escolhar](http://portal.inep.gov.br/basica-censo-escolar-sinopse-sinopse)
-> apresentam dados referentes a estabelecimento, matrícula, função docente, movimento e rendimento escolar, para as diferentes modalidades de ensino brasileiras: Ensino Regular (Educação Infantil e Ensino Fundamental e Médio), Educação Especial e Educação de Jovens e Adultos. Os dados estão distribuídos de acordo com as regiões brasileiras e suas respectivas unidades da federação.
+### [Inep Sinopse basica censo escolar](http://portal.inep.gov.br/basica-censo-escolar-sinopse-sinopse)
+> Apresentam dados referentes a estabelecimento, matrícula, função docente, movimento e rendimento escolar, para as diferentes modalidades de ensino brasileiras: Ensino Regular (Educação Infantil e Ensino Fundamental e Médio), Educação Especial e Educação de Jovens e Adultos. Os dados estão distribuídos de acordo com as regiões brasileiras e suas respectivas unidades da federação.
 
 ### [Data escolar Brasil](http://www.dataescolabrasil.inep.gov.br/dataEscolaBrasil/home.seam)
 
