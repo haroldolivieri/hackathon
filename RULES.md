@@ -1,4 +1,4 @@
-# Regras do jogos :)
+# Regras do jogo :)
 
 ## Apresentação dos Projetos
 1. O desenvolvimento e apresentação dos projetos deverão respeitar o cronograma indicado no item 2.
@@ -12,7 +12,7 @@ participantes do evento e para a Comissão Julgadora
 2. Crie uma pasta com nome **NOME_GRUPO_OU_PROJETO** e desenvolva seu projeto dentro dessa pasta.
 3. Faça um PR para [Hackathon](https://github.com/descomplica/hackathon)
 
-> **ATENÇÃO:** Os Pull Requests devem estar nesse formato, assim vamos conseguir mergear todos para nosso branch principal. Os PR que não estiverem nesse formato, não será avaliado.
+> **ATENÇÃO:** Os Pull Requests devem estar nesse formato, assim vamos conseguir mergear todos para nosso branch principal. Os PR que não estiverem nesse formato, não serão avaliados.
 
 ## Participação no Evento
 1. Cada participante ou equipe deverá levar suas próprias ferramentas de trabalho pessoais (computador, tablet, smartphone, monitor, notebook, mouse, software etc).
