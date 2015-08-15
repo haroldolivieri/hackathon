@@ -39,3 +39,5 @@
 ### [Dados Abertos SICONV](http://api.convenios.gov.br/siconv/doc/)
 > A prestação de dados como um serviço governamental traz vantagens pra toda a sociedade, incluindo o próprio governo. O Ministério do Planejamento, Orçamento e Gestão está economizando recursos através da publicação dessas informações na Internet.
 A disponibilização dos dados do SICONV é um compromisso firmado pelo governo brasileiro na Parceria para Governo Aberto (Open Government Partnership - OGP do inglês). O governo está comprometido em promover a transparência dos gastos públicos, fornecer informações de valor agregado à sociedade e promover a pesquisa e inovação tecnológica através da implementação da políticas brasileira de dados abertos. Essa API está sendo desenvolvida como parte da Infraestrutura Nacional de Dados Abertos - INDA.
+
+### [IBGE Educação] (http://seriesestatisticas.ibge.gov.br/lista_tema.aspx?op=0&no=4)
