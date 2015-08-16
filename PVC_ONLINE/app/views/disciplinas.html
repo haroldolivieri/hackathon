@@ -1,0 +1,27 @@
+<div  ng-controller="DisciplinasController as Disciplina">
+
+
+      <div class="jumbotron">
+        <h1>Bem vindo(a)!</h1>
+        
+        <p> Estude <strong><u>{{Disciplina.label}}</u></strong> para o vestibular com conteúdo gratuito. </p>
+        <p> Interaja e tire dúvidas sobre os as matérias com outros vestibulandos. </p>
+        <p> Participe dos eventos organizados por voluntários sobre os assuntos do vestibular. </p>
+      </div>
+      <ul class="nav nav-tabs">
+         <li ng-class="{active: activetab == '/'}"><a href="#/disciplinas">Disciplinas</a></li>
+      </ul>
+ <div id="disciplines" class="row">        
+        <div ng-repeat="list in Disciplina.result" class="col-xs-6 col-md-3">
+          <div class="thumbnail discipline">
+            <h2 class="text-center">
+              <a ng-href="#/disciplinas/{{list.Id}}">
+                <i class="glyphicon glyphicon-book"></i><br />
+                <span> {{list.Name}} </span>
+              </a>
+            </h2>
+          </div>
+        </div>
+</div>
+</div>	
+	

@@ -1,0 +1,20 @@
+<div ng-controller="VideosController as Videos">
+<ul class="nav nav-tabs">
+		<li ng-class="{active: activetab == '/'}"><a href="#/disciplinas/">Disciplinas</a></li>
+
+         <li ng-class="{active: activetab == '/'}"><a href="#/disciplinas/{{Videos.id_disciplina}}">Assuntos</a></li>
+      </ul>
+	<div id="contents" class="row">
+		<div class="col-xs-12 col-md-4 col-sm-4" ng-repeat="video in Videos.items">
+			<a ng-href="#/video/{{video.id.videoId}}">
+			  <div class="thumbnail">
+			    <img ng-src="{{video.snippet.thumbnails.medium.url}}" alt="" />
+			    <div class="caption">
+			      <h4>{{video.snippet.title}}</h4>
+			      <p class="text-justify">{{video.snippet.description}}</p>
+			    </div>
+			  </div>
+			</a>
+		</div>
+	</div>
+</div>
