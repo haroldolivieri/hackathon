@@ -1,0 +1,7 @@
+use_frameworks!
+
+pod 'YouTubePlayer'
+pod 'Spring'
+pod 'IQKeyboardManager'
+pod 'PARTagPicker'
+pod 'AMTagListView'

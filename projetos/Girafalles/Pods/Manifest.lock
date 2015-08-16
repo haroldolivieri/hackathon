@@ -1,0 +1,22 @@
+PODS:
+  - AMTagListView (0.8)
+  - IQKeyboardManager (3.2.4)
+  - PARTagPicker (1.0.0)
+  - Spring (1.0.3)
+  - YouTubePlayer (0.2)
+
+DEPENDENCIES:
+  - AMTagListView
+  - IQKeyboardManager
+  - PARTagPicker
+  - Spring
+  - YouTubePlayer
+
+SPEC CHECKSUMS:
+  AMTagListView: d09495e080a01db699d351cebaea2ce66a23e70b
+  IQKeyboardManager: 555b1231fefafb21b19278d7cca72986a27b748b
+  PARTagPicker: 6d6aea6627d6ffaed1efc13fefe8c4fc8c1ac3c5
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  YouTubePlayer: f0afebef31a1793cce734220a5a311ba29ca4a7f
+
+COCOAPODS: 0.38.2
