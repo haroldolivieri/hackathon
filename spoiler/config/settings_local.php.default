@@ -1,0 +1,19 @@
+<?php
+$app['dbConnectionDeploy'] = "mysql://hackathon:hackathon@localhost/hackathon;charset=utf8";
+$app['dbSlaveConnectionDeploy'] = "mysql://hackathon:hackathon@localhost/hackathon;charset=utf8";
+
+$app['cacheConnectionDeploy'] = "10.0.0.12";
+
+$app['cachePortConnectionDeploy'] = "11211";
+
+$app['sessionConnectionDeploy'] = "10.0.0.12";
+
+$app['sessionPortConnectionDeploy'] = "11211";
+
+$app['siteAdress'] = 'http://www.google.com';
+
+$app['serverName'] = 'http://10.0.0.12';
+
+$app['redisConnection'] = '10.0.0.12:6379';
+
+$app['cookieSiteDomain'] = '10.0.0.12';
