@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBMapController" customModule="Girafalles" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionLabels" destination="Zm4-Hf-mXu" id="znq-je-RBS"/>
+                <outlet property="formLabels" destination="NBG-rh-gjv" id="hk7-ye-8Eb"/>
+                <outlet property="mapView" destination="6dl-b8-xly" id="zDg-hF-RT9"/>
+                <outlet property="tagView" destination="lJ8-Dq-MuA" id="MSy-Jr-Xcz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFd-hl-YCF" userLabel="SuperView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJ8-Dq-MuA" userLabel="TagView">
+                            <rect key="frame" x="0.0" y="20" width="600" height="136"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="O que você deseja aprender?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NBG-rh-gjv" userLabel="formLabel">
+                                    <rect key="frame" x="16" y="16" width="568" height="34"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="34" id="cL3-fV-kYN"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Zm4-Hf-mXu">
+                                    <rect key="frame" x="16" y="66" width="568" height="54"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="54" id="xTH-1S-Px2"/>
+                                    </constraints>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Rla-JI-dw6">
+                                        <size key="itemSize" width="50" height="50"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <cells/>
+                                </collectionView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.27450980392156865" green="0.66666666666666663" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="NBG-rh-gjv" firstAttribute="top" secondItem="lJ8-Dq-MuA" secondAttribute="top" constant="16" id="3sa-78-zIA"/>
+                                <constraint firstItem="NBG-rh-gjv" firstAttribute="leading" secondItem="lJ8-Dq-MuA" secondAttribute="leading" constant="16" id="6YW-Fh-4cm"/>
+                                <constraint firstAttribute="height" constant="39" id="MwD-U4-9aP"/>
+                                <constraint firstAttribute="trailing" secondItem="NBG-rh-gjv" secondAttribute="trailing" constant="16" id="RCy-kn-0dX"/>
+                                <constraint firstItem="NBG-rh-gjv" firstAttribute="top" secondItem="lJ8-Dq-MuA" secondAttribute="top" constant="16" id="Xdn-aV-Xnt"/>
+                                <constraint firstItem="Zm4-Hf-mXu" firstAttribute="leading" secondItem="lJ8-Dq-MuA" secondAttribute="leading" constant="16" id="llS-lh-zqN"/>
+                                <constraint firstItem="Zm4-Hf-mXu" firstAttribute="top" secondItem="NBG-rh-gjv" secondAttribute="bottom" constant="16" id="sEX-Cc-Oek"/>
+                                <constraint firstAttribute="trailing" secondItem="Zm4-Hf-mXu" secondAttribute="trailing" constant="16" id="wfG-OB-vRQ"/>
+                                <constraint firstAttribute="bottom" secondItem="Zm4-Hf-mXu" secondAttribute="bottom" constant="16" id="zxo-qr-Tuu"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="MwD-U4-9aP"/>
+                                    <exclude reference="3sa-78-zIA"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6dl-b8-xly">
+                            <rect key="frame" x="0.0" y="156" width="600" height="440"/>
+                        </mapView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rZl-co-S97" userLabel="ShadowView">
+                            <rect key="frame" x="0.0" y="596" width="600" height="4"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="4" id="yN3-XU-66k"/>
+                            </constraints>
+                        </view>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zfj-t7-QTF">
+                            <rect key="frame" x="16" y="172" width="568" height="29"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="cim-up-8jd"/>
+                            </constraints>
+                            <segments>
+                                <segment title="Hora Marcada"/>
+                                <segment title="Emergência"/>
+                            </segments>
+                            <color key="tintColor" red="0.27450980390000002" green="0.66666666669999997" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="mapSegmentedControl:" destination="-1" eventType="valueChanged" id="uS3-zD-g0q"/>
+                            </connections>
+                        </segmentedControl>
+                    </subviews>
+                    <color key="backgroundColor" red="0.27450980392156865" green="0.66666666666666663" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="rZl-co-S97" firstAttribute="top" secondItem="6dl-b8-xly" secondAttribute="bottom" id="0AW-F4-6qR"/>
+                        <constraint firstAttribute="trailing" secondItem="zfj-t7-QTF" secondAttribute="trailing" constant="16" id="0VV-fC-fBM"/>
+                        <constraint firstItem="zfj-t7-QTF" firstAttribute="top" secondItem="lJ8-Dq-MuA" secondAttribute="bottom" constant="16" id="0dx-sd-HyP"/>
+                        <constraint firstAttribute="trailing" secondItem="rZl-co-S97" secondAttribute="trailing" id="7eb-In-0C9"/>
+                        <constraint firstAttribute="bottom" secondItem="rZl-co-S97" secondAttribute="bottom" id="7l4-eX-QPR"/>
+                        <constraint firstItem="rZl-co-S97" firstAttribute="leading" secondItem="gFd-hl-YCF" secondAttribute="leading" id="BX1-Ra-foj"/>
+                        <constraint firstItem="zfj-t7-QTF" firstAttribute="leading" secondItem="gFd-hl-YCF" secondAttribute="leading" constant="16" id="CJb-Gd-NSK"/>
+                        <constraint firstAttribute="bottom" secondItem="6dl-b8-xly" secondAttribute="bottom" constant="16" id="D30-Dz-aMW"/>
+                        <constraint firstAttribute="trailing" secondItem="lJ8-Dq-MuA" secondAttribute="trailing" id="QMO-6p-Sub"/>
+                        <constraint firstItem="6dl-b8-xly" firstAttribute="leading" secondItem="gFd-hl-YCF" secondAttribute="leading" id="eqR-VM-wgg"/>
+                        <constraint firstItem="lJ8-Dq-MuA" firstAttribute="top" secondItem="gFd-hl-YCF" secondAttribute="top" constant="20" id="izR-eZ-VgQ"/>
+                        <constraint firstItem="6dl-b8-xly" firstAttribute="top" secondItem="lJ8-Dq-MuA" secondAttribute="bottom" id="knq-hG-KYU"/>
+                        <constraint firstAttribute="trailing" secondItem="6dl-b8-xly" secondAttribute="trailing" id="rRP-6F-wDP"/>
+                        <constraint firstItem="lJ8-Dq-MuA" firstAttribute="leading" secondItem="gFd-hl-YCF" secondAttribute="leading" id="u5d-0w-eBH"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="D30-Dz-aMW"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="gFd-hl-YCF" secondAttribute="bottom" id="3XE-Et-D4P"/>
+                <constraint firstItem="gFd-hl-YCF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="MtD-2S-oxe"/>
+                <constraint firstItem="gFd-hl-YCF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="QD9-3e-LPK"/>
+                <constraint firstAttribute="trailing" secondItem="gFd-hl-YCF" secondAttribute="trailing" id="cNB-0l-yWH"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

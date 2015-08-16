@@ -1,0 +1,1470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065994EFFEFC15C1D5111C990A9907BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C53CAB4F0A200AD2E25D45C004476 /* Foundation.framework */; };
+		084A26CC6355487E7392E536B44D91A7 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644DF8F1DD47151F078FE505B9287BE4 /* AsyncImageView.swift */; };
+		098984CF016F05A13457A3AF37361C29 /* IQSegmentedNextPrevious.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E759714569DACDF9506D3682E616E2 /* IQSegmentedNextPrevious.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1DD9C0ABDB5AC362F72DB917BE6C2A /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A52E624F3392417EE2DF542AE08A1D /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B1C8A94F7DC5AC2BE2104344CC309AB /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3AF76893AFC25E907702C8E3B1267 /* IQKeyboardManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0C926B1D844554EFAF143C26682CB608 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB550BFBDE25FD73B2CAF77A9F8FBBD /* SpringView.swift */; };
+		0D0E94D1BA00E14A28AD9EA85B3AAA4F /* AMTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A781EC3B81C58F51F45B08AD86E7C /* AMTagView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0DBBD9B3B9C21A5E3CB2792AAB7465EE /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD6770ADB3C035A160838C1D318845B /* IQToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E5FE1D3E743436EDF2CE536506E1F44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C53CAB4F0A200AD2E25D45C004476 /* Foundation.framework */; };
+		11CB5B6A6230EDDC7E6E8F4CC91E36FA /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A541D58FD6F8547CF9D1DA0A33C4D2D /* IQTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		145F2812EBB521B28B64ACE66D433D86 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2E195D2CB6FEF0C6ACE0E402E13C941 /* IQKeyboardManager.bundle */; };
+		181BB79FDEE23FDB7BD60C471C439387 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD019AC722859EA116F2B9B9B0DC59 /* IQTitleBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1F15B117EDD3F3047E87939B49D6A335 /* AMTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2F97F4783FC9FE8D5B4A50AD91A3E16 /* AMTagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23F19AD76AF22DD09133A4CE563E43AB /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A0C972EB6ECF86C0981C970CB1E87C /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27156FA2EE58423E96F91E849944DE33 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17786A103C8CD0AAB191C5A9353EBBFC /* DesignableView.swift */; };
+		276887C3869F383DA42BC7A4D2DBEF3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C53CAB4F0A200AD2E25D45C004476 /* Foundation.framework */; };
+		281ACA5F324A1A67F397E55FC273EDD0 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91059726DC94563BC9E3159625138DBE /* AutoTextView.swift */; };
+		31C2332415AFEA8CB51C1BBF3957962A /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C8C855BFD1895A1F65F6A9AB852E68 /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335B5EA8AD0401A16861F99F6FB99BCD /* UIView+NibInitable.m in Sources */ = {isa = PBXBuildFile; fileRef = 51012A4A198CBB7C27E125F889D840D5 /* UIView+NibInitable.m */; };
+		347EED8CFA5A1F52DEAE4F0735326A69 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C28B98048BFCF4FACFF2332C8FE4FE7 /* Pods-dummy.m */; };
+		3A6E234CADC87DBC96205DDB29B4007B /* PARTagColorReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 397841E8F2AB8C2DEFB2E4759F3BC750 /* PARTagColorReference.m */; };
+		3A770BDAD8EE07ADDD214AF1C22F490D /* PARTagPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D8F31D6131FBDC88A2AFA86B8A144 /* PARTagPicker-dummy.m */; };
+		3B15962FE6CDF703F7517DBAF87AD6E4 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B835B557B3F72D89945095C23B1A4 /* DesignableLabel.swift */; };
+		3C9CDF0BB369CD3B12011925C5232EE2 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78944065809CF09A00617DA30CA29B0F /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC9FC4FEB4D33544E422990E5C26E54 /* PARTextFieldCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FFD7CC4BBFC37F266926C0B63201F3 /* PARTextFieldCollectionViewCell.m */; };
+		4148A72D1AFCB04DB7891825B7947A7F /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC355C9C85A9F16689D8A37EDB598E0 /* IQUITextFieldView+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		462DAD07A37A542C1B2459ABF84B2FC1 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEE07DE065F955AE89DC30A7B6338F /* IQNSArray+Sort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		462E210B0F8B9C1691E8064D6E57904A /* NSString+PARStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE864A4244AE386A926972386172E81 /* NSString+PARStrings.m */; };
+		4796618F1C368B7F00468A0271F74355 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66864E734A4D1B1E8C414641B3943312 /* YouTubePlayer.swift */; };
+		48E642D4185955D8EB66A3D6F3347531 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C91990E71714F97447906274B9C21027 /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AC63369F44D2E1FF5754F4817036BE9 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9CC2BB93470648CCEE42F06CF16EF1 /* SpringButton.swift */; };
+		4AEC16254AB33CD52714CBF96CB8A50D /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A46C4CDA26763F8A89977615BA750 /* SpringTextField.swift */; };
+		57846FF14A4B242B0F985BB7DD29004F /* AMTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD139A36F7B36687BF16B27FBAB869 /* AMTagListView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C7F45716DE048D6B633C18A0EC4D3D6 /* KeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92290B06D3DD873CE7CA572F953F6DFE /* KeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DFB248DE01ED21678C05D7F3E6CBD23 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 222D17F2E562F0D3BBF05A1863A9CC92 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68658D3340A304AA7F22E1869F1F3004 /* PARBackspaceTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F62ABC5CD955A670FF0415C28212E12B /* PARBackspaceTextField.m */; };
+		6898D00A17F0B59B9FB7D020642B0FE7 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BD3D3C3D5BDAF745916587420D963 /* DesignableTabBarController.swift */; };
+		6D296F9516D0C2603C46E2890509F550 /* AMTagListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76569384727DBDBF7E4A2F37C90D79B6 /* AMTagListView-dummy.m */; };
+		704F59523CD3B752D47BC1F31CAC9D60 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCFDDFAEA3C7591B72DA479F3BCB6CE /* IQUIView+Hierarchy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7480D7F88F7D6C491AC709D6A2485553 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747EC9F42A32387A595E40BE8E658168 /* DesignableTextField.swift */; };
+		7784ABE02E493AE3288BA2467DED9485 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6106FA0626AF6849CC0B8FA5321C5814 /* Images.xcassets */; };
+		78054845576BD105C4505ACCB26C9A77 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A10C62583F50B571B0FEE47047D3D8 /* DesignableButton.swift */; };
+		7B6A1328869D6669FF7F7F1CCD93FF84 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A84DF1533C110298DE407EDFB7488C /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BE5301002D3B2268B5B8D745358574B /* PARTagColorReference.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0ABBAFB7424BADE95C303D47771694 /* PARTagColorReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1738E3A6531DB76F957F8DED0FBB72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4289B844A634BE5C9799D1F5BE90AE /* UIKit.framework */; };
+		7D000142C3B08CD83B74A9178BBD9A3F /* PARTagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6934091E642E666A535DFEA41FFEE9B /* PARTagCollectionViewCell.m */; };
+		81C2C74F6951078C51788BEEF15759A8 /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABA9A27135DFEEC0809F3FE6825529B /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840CFCCC657FEFFC9083C6D7B5CC8963 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 198E257103AB405314BD6FACE8E71DE3 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		858ED576E4AADE88999137E0AA25F219 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B11326E117F16B77C4601D8FF6FC0B /* Spring.swift */; };
+		85B82A9211D0A1292C1E2326E10D2DE2 /* PARTextFieldCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB751359117B40EEED015479A345135 /* PARTextFieldCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		860E6166BDD6C7A2AF796EE6D7729971 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B639C1CF665CE74FBD6494B9A6633AC /* DesignableImageView.swift */; };
+		898D4E31759FB047AE22A1DC0AB765C8 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28517CF1749DF981B83A9F1D8542FF5 /* DesignableTextView.swift */; };
+		8A83AD4B7307DA03595221174896FA35 /* PARTagPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADF654C3911D371CDC60A1B4694C4C3 /* PARTagPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC90AA4994A6B17D0C52A0BA584FE07 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108AA2994D7815017CD629C1646FFF61 /* Misc.swift */; };
+		8DE0F1FE4B8568F35616D67BC7D97A49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C53CAB4F0A200AD2E25D45C004476 /* Foundation.framework */; };
+		96D74AE1DE7997C5952702E1EA2269BE /* PARBackspaceTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D65FE9B3D6A5988A5D92E5E6784B715 /* PARBackspaceTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98DF50B7F014E5A93FE725B2E0A1C98F /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = 159F54FE45AA658F90002EAC53025C0C /* IQSegmentedNextPrevious.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DAB2D8C89D1855D26D1C77A675AA1E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C53CAB4F0A200AD2E25D45C004476 /* Foundation.framework */; };
+		A11E4B72F2A95F5B316F33D58E8219DB /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4651636FAB7853DEDED65C85DA67163D /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A188B0BE40F1B60D7538D950DB4D363C /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E3B906450A8ACC936A7BB88B4CD507 /* YouTubePlayer-dummy.m */; };
+		A2993C44E56287318EA597960FBD884D /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4130FF2B777F0C5394641C3A4DEB7132 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A41D503AFC4C8ECB5819C8AE21A68D0A /* UIView+NibInitable.h in Headers */ = {isa = PBXBuildFile; fileRef = CD50B63DB64A16E0FFB8F0DADAFC62F8 /* UIView+NibInitable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB601706C701CF057303565A22FEF664 /* PARTagPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F76D11D09B9B21BCE83E3AFAE635AA /* PARTagPickerViewController.m */; };
+		AE15CAA10472B2196CD298C7E5FC46A0 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B8529E1983E685900CCEECFC37D6AA92 /* IQBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AFC0905E8B9FD7BD96E3305BEC6A408F /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9876D10625C1E9006562055D3BF119 /* SpringAnimation.swift */; };
+		B1526F737F8754B9637038A81C19492A /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017820BFEFFA04C8392724C5BE0810A8 /* SpringImageView.swift */; };
+		B1DB64C87DF7AAA7BDC5F45F81AB8578 /* NSString+PARStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = 16AE7368C69609F406F32B6E3DE11FA7 /* NSString+PARStrings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3006549161976151BA776A6BD4F81F8 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C55DE6BD2C60A6FC893D8DB339FC4553 /* LoadingView.xib */; };
+		B37AD3E2F87A47B9EB5F0D023F33FF1D /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D313E70FABD3B63D31116FC62DDD68 /* TransitionManager.swift */; };
+		B5733524751399DED1A701C15EF79176 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834662A3665BDF7D2F61BA3631A66AD /* SpringLabel.swift */; };
+		BC3EE914E8E780D2FB1CA1A5B36AB343 /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE88438AF324B823ED21A0892F7C659 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFDAB52BF672CCE0683D4993D3B5C4E4 /* PARTagPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5AE6F116DF7766F3986DF008109C15 /* PARTagPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C041B42A2EDA3B9E6F7B62050B4EF1DA /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F6536E62E6294906FC706BDBA0F495E1 /* IQUIView+IQKeyboardToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C0D2C01A6C49699CFCDF22D7AEFE93AF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1373004EE5CF38BDD54B6746887D0 /* LoadingView.swift */; };
+		C3E1C804E067B601A51057984B193861 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B1206A59C1FAE44D406ED38E0322EC /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C87A9FF7FBAB8986E63DB8CE14A2A7A8 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3663DD4A9AAC76D2E5D72C61BC670C /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA50CAD42E541F78CEF783784315E04 /* AMTagListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EFD2D11B9BAE31E7E6F6F3ADC508002 /* AMTagListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD1F512447DB60977F157220BD42186 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B30E4FCB21A5DFB1F1371BCB0B43B1 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA7DA76414B19CD1DF071D5250CA67E /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB8DC0029F616AC6A34A74FDAFD750 /* KeyboardLayoutConstraint.swift */; };
+		D060D435EB38EB039BD199037BAFE6EE /* AMTagListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EABC9BA39C77F4E31760F8B4AFD167 /* AMTagListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D363EB8BDFC31E3834477F1D2768C313 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 107738FB3FB3C1725803A166E53F3AA0 /* IQKeyboardManager-dummy.m */; };
+		D9098E669199273B2BD82EB82BE303A6 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96B6E188B9C19B02F7A48882B460FF1 /* AsyncButton.swift */; };
+		DA1D68278C3DCCB3ECE505A7C48CC794 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B20F8A2F622094A3872C3C7A9859D3 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA8ABA13298C7710C0415705CF15A95F /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FA4219C27344F5A01D3CDD86C3EAB /* Spring-dummy.m */; };
+		DDF575AD6B47BCAFEB4BE7BF8B8F498D /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ACF5E472382B95FBDED0550E24C18DB /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E445E02BAE699D3CD97213973DCDC5FE /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A04412784B2B3A8735C7186E1AE16 /* TransitionZoom.swift */; };
+		E58D8CE77C41D7B308D15814802270BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97C53CAB4F0A200AD2E25D45C004476 /* Foundation.framework */; };
+		E6D355B8760661369050BD92BA9CBC5E /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0B4A3C8430E8D9BAC52FE90BB00CF2 /* UnwindSegue.swift */; };
+		E9D54407268E0C066760E9A3A283F8FC /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD0FB30CDB217927C27FE7D04F75EE /* SpringTextView.swift */; };
+		EA99C5E65D55AA9CEF09E17D00546D5F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F2691BBD99CF1196A45A047DB048B5 /* ImageLoader.swift */; };
+		EB2FFE91C5180BDDD66AFC6DC1969B5F /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2438F9A45D6792EFE3E0EBCD10F44915 /* IQKeyboardReturnKeyHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F25A1F5BF7035884B330E4CED131AD64 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3D3BA73F633688D4B0A041AFDFEFF /* BlurView.swift */; };
+		F2EAC5DF1416777A88EFE08B1D295727 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEA5D8A965918347CA88F0309C6B216 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3BD34AA2DB66D8D915FDBE43E664807 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A672194B4F21FB84D39435BE82545AC6 /* IQUIWindow+Hierarchy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FC32DC59FE3DDACD444A9D7354C59A86 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54739E25B3AA86B00C6749E3A781819E /* IQUIViewController+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FDD11A163E0E272D38230B50C4202AEE /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C0F51565A5346A442CC17CBFEE3FBD /* SoundPlayer.swift */; };
+		FE39DCA7802A58CEE1E4AA4177404397 /* PARTagCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C3AF6C24F2C3D3EE7D8874D79F4109 /* PARTagCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CDFA8C7211EB7AC44085158753B22C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1CD3BC6B9F8D9F111FB188D37B52AE6;
+			remoteInfo = YouTubePlayer;
+		};
+		3BB8A1B61A349448041A1294138BD271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DB8A485A860289802BEBA425D9DA6B;
+			remoteInfo = AMTagListView;
+		};
+		4783389E92B1CC153D3ABB528AD7AAC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9652CD2F35BDC08492A82604707960F;
+			remoteInfo = PARTagPicker;
+		};
+		48DE8FDBAFD71665454A5C39B1DCF57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A77C0FA46BB0E1E67C0FC76B2A9236;
+			remoteInfo = IQKeyboardManager;
+		};
+		85605B7D190EC80D7AB71C946740FEA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ADDC830F1F3957A877DC0A28F0CBD4E;
+			remoteInfo = Spring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017820BFEFFA04C8392724C5BE0810A8 /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		02EABC9BA39C77F4E31760F8B4AFD167 /* AMTagListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMTagListView.h; path = Source/AMTagListView.h; sourceTree = "<group>"; };
+		052209D5527775698474AADED9CBE71A /* PARTagPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PARTagPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A52E624F3392417EE2DF542AE08A1D /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyBoardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		0C474422B8C9FA86CCB7521477796B46 /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
+		107738FB3FB3C1725803A166E53F3AA0 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		108AA2994D7815017CD629C1646FFF61 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		159F54FE45AA658F90002EAC53025C0C /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQSegmentedNextPrevious.m; path = IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		16AE7368C69609F406F32B6E3DE11FA7 /* NSString+PARStrings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PARStrings.h"; path = "PARTagPicker/Classes/NSString+PARStrings.h"; sourceTree = "<group>"; };
+		17786A103C8CD0AAB191C5A9353EBBFC /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		198E257103AB405314BD6FACE8E71DE3 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyBoardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		1D4289B844A634BE5C9799D1F5BE90AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1EFD2D11B9BAE31E7E6F6F3ADC508002 /* AMTagListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMTagListView-umbrella.h"; sourceTree = "<group>"; };
+		20A0C972EB6ECF86C0981C970CB1E87C /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		2191A817A553F7E05AF8D7EE20BF67DC /* PARTagPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PARTagPicker.xcconfig; sourceTree = "<group>"; };
+		21C0F51565A5346A442CC17CBFEE3FBD /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		222D17F2E562F0D3BBF05A1863A9CC92 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyBoardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		2438F9A45D6792EFE3E0EBCD10F44915 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyBoardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		243BD3D3C3D5BDAF745916587420D963 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		2834662A3665BDF7D2F61BA3631A66AD /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		2E1D8F31D6131FBDC88A2AFA86B8A144 /* PARTagPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PARTagPicker-dummy.m"; sourceTree = "<group>"; };
+		37F3D3BA73F633688D4B0A041AFDFEFF /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		38E458EA8074A78E2BD74E811AF3E88C /* AMTagListView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AMTagListView.modulemap; sourceTree = "<group>"; };
+		397841E8F2AB8C2DEFB2E4759F3BC750 /* PARTagColorReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PARTagColorReference.m; path = PARTagPicker/Classes/PARTagColorReference.m; sourceTree = "<group>"; };
+		3D65FE9B3D6A5988A5D92E5E6784B715 /* PARBackspaceTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PARBackspaceTextField.h; path = PARTagPicker/Classes/PARBackspaceTextField.h; sourceTree = "<group>"; };
+		3DDEE07DE065F955AE89DC30A7B6338F /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyBoardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		3E14240A3E41E3BB5C3287B840A2F254 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9CC2BB93470648CCEE42F06CF16EF1 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		4074A8446866B25B9EA189752E03C8AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4130FF2B777F0C5394641C3A4DEB7132 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyBoardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		451746300E823F97EB2F05F955A14B46 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4651636FAB7853DEDED65C85DA67163D /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyBoardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		469E1785C3FD63696B5BCF1FAB67B5A9 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
+		4ACF5E472382B95FBDED0550E24C18DB /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
+		4ADF654C3911D371CDC60A1B4694C4C3 /* PARTagPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PARTagPicker-umbrella.h"; sourceTree = "<group>"; };
+		4D68673A6EB9758B79DC48A9EBD341EE /* AMTagListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMTagListView-prefix.pch"; sourceTree = "<group>"; };
+		4DF1373004EE5CF38BDD54B6746887D0 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		50AB8DC0029F616AC6A34A74FDAFD750 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		51012A4A198CBB7C27E125F889D840D5 /* UIView+NibInitable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NibInitable.m"; path = "PARTagPicker/Classes/UIView+NibInitable.m"; sourceTree = "<group>"; };
+		54739E25B3AA86B00C6749E3A781819E /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyBoardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		5A541D58FD6F8547CF9D1DA0A33C4D2D /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyBoardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		5A9A781EC3B81C58F51F45B08AD86E7C /* AMTagView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMTagView.m; path = Source/AMTagView.m; sourceTree = "<group>"; };
+		5B81BBEB4D0CF61DEB9E329E1A923FE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FDD019AC722859EA116F2B9B9B0DC59 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		60B11326E117F16B77C4601D8FF6FC0B /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		6106FA0626AF6849CC0B8FA5321C5814 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		615087F83CCCA209C7DE6AEB5076F0A5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		63B1206A59C1FAE44D406ED38E0322EC /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		644DF8F1DD47151F078FE505B9287BE4 /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		66864E734A4D1B1E8C414641B3943312 /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
+		6ABA9A27135DFEEC0809F3FE6825529B /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		6DE76164C9B3604FCEDD20D2CDFBAE0F /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5FA4219C27344F5A01D3CDD86C3EAB /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
+		6FE864A4244AE386A926972386172E81 /* NSString+PARStrings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PARStrings.m"; path = "PARTagPicker/Classes/NSString+PARStrings.m"; sourceTree = "<group>"; };
+		714B835B557B3F72D89945095C23B1A4 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		72B20F8A2F622094A3872C3C7A9859D3 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		73DD0FB30CDB217927C27FE7D04F75EE /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		73E2D4BBD38DFE83DA0D4F32D82A17F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747EC9F42A32387A595E40BE8E658168 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		76569384727DBDBF7E4A2F37C90D79B6 /* AMTagListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMTagListView-dummy.m"; sourceTree = "<group>"; };
+		78944065809CF09A00617DA30CA29B0F /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyBoardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		78F365F82473CF9A4F567F625F895981 /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7B1E334EF817CCA2B96A71C844768D56 /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
+		7B5A89B6D0103830322877CF30637E31 /* Spring-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Spring-Private.xcconfig"; sourceTree = "<group>"; };
+		7B639C1CF665CE74FBD6494B9A6633AC /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		7F33804AF255082DD48F3A789DDF8673 /* AMTagListView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AMTagListView-Private.xcconfig"; sourceTree = "<group>"; };
+		802C942A257B0BA6C954DFBC317FB9C6 /* YouTubePlayer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YouTubePlayer-Private.xcconfig"; sourceTree = "<group>"; };
+		83D313E70FABD3B63D31116FC62DDD68 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D05906BFDC50EB62880C40E7C96DDEC /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
+		91059726DC94563BC9E3159625138DBE /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		92290B06D3DD873CE7CA572F953F6DFE /* KeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyboardManager.h; path = IQKeyBoardManager/KeyboardManager.h; sourceTree = "<group>"; };
+		96C3AF6C24F2C3D3EE7D8874D79F4109 /* PARTagCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PARTagCollectionViewCell.h; path = PARTagPicker/Classes/PARTagCollectionViewCell.h; sourceTree = "<group>"; };
+		984115494FCC184CA05BD04EA890000F /* AMTagListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMTagListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FFD7CC4BBFC37F266926C0B63201F3 /* PARTextFieldCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PARTextFieldCollectionViewCell.m; path = PARTagPicker/Classes/PARTextFieldCollectionViewCell.m; sourceTree = "<group>"; };
+		9C28B98048BFCF4FACFF2332C8FE4FE7 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		9E4A04412784B2B3A8735C7186E1AE16 /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		9F9876D10625C1E9006562055D3BF119 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		A672194B4F21FB84D39435BE82545AC6 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		A6CEF4702A13352AA02FD327D58E1FB0 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		A9A84DF1533C110298DE407EDFB7488C /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		ABDD139A36F7B36687BF16B27FBAB869 /* AMTagListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMTagListView.m; path = Source/AMTagListView.m; sourceTree = "<group>"; };
+		ADE88438AF324B823ED21A0892F7C659 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyBoardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		AFCFDDFAEA3C7591B72DA479F3BCB6CE /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyBoardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		B2E195D2CB6FEF0C6ACE0E402E13C941 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyBoardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		B2FD5179552E6F05E510BA1497A6D021 /* IQKeyboardManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IQKeyboardManager-Private.xcconfig"; sourceTree = "<group>"; };
+		B47A46C4CDA26763F8A89977615BA750 /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		B8529E1983E685900CCEECFC37D6AA92 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyBoardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBAB029BABE9AE7C15DA25F286D4F23E /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Spring.modulemap; sourceTree = "<group>"; };
+		BCB751359117B40EEED015479A345135 /* PARTextFieldCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PARTextFieldCollectionViewCell.h; path = PARTagPicker/Classes/PARTextFieldCollectionViewCell.h; sourceTree = "<group>"; };
+		BD5AE6F116DF7766F3986DF008109C15 /* PARTagPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PARTagPickerViewController.h; path = PARTagPicker/Classes/PARTagPickerViewController.h; sourceTree = "<group>"; };
+		C28517CF1749DF981B83A9F1D8542FF5 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		C3E3B906450A8ACC936A7BB88B4CD507 /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
+		C55DE6BD2C60A6FC893D8DB339FC4553 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		C91990E71714F97447906274B9C21027 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyBoardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		C96B6E188B9C19B02F7A48882B460FF1 /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		CA10372C771378FA6C1BB78E6851B7BF /* AMTagListView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMTagListView.xcconfig; sourceTree = "<group>"; };
+		CB7E839CAE0FE644093F8477DFF78495 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CBC355C9C85A9F16689D8A37EDB598E0 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyBoardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		CBEA5D8A965918347CA88F0309C6B216 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyBoardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		CD50B63DB64A16E0FFB8F0DADAFC62F8 /* UIView+NibInitable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NibInitable.h"; path = "PARTagPicker/Classes/UIView+NibInitable.h"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2B30E4FCB21A5DFB1F1371BCB0B43B1 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyBoardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		D4C8C855BFD1895A1F65F6A9AB852E68 /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
+		D6E759714569DACDF9506D3682E616E2 /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQSegmentedNextPrevious.h; path = IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		D8139B21D95E07D7F56B720F11A4F040 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3D293872BD2CA37C12E35E8E012F4B /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		DAB550BFBDE25FD73B2CAF77A9F8FBBD /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		DE1A28A4F32C5C955618AACA37B4C290 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E0B217DC3BACE436E0010AC4C3463318 /* YouTubePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.xcconfig; sourceTree = "<group>"; };
+		E5A10C62583F50B571B0FEE47047D3D8 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		E6934091E642E666A535DFEA41FFEE9B /* PARTagCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PARTagCollectionViewCell.m; path = PARTagPicker/Classes/PARTagCollectionViewCell.m; sourceTree = "<group>"; };
+		E6F2691BBD99CF1196A45A047DB048B5 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8949E3CBA66B5082AEE1FCF72071702 /* PARTagPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PARTagPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		E9F76D11D09B9B21BCE83E3AFAE635AA /* PARTagPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PARTagPickerViewController.m; path = PARTagPicker/Classes/PARTagPickerViewController.m; sourceTree = "<group>"; };
+		EBF3AF76893AFC25E907702C8E3B1267 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyBoardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		EC3663DD4A9AAC76D2E5D72C61BC670C /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyBoardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		EC44CF6C10420B7AD0485C938469B98A /* PARTagPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PARTagPicker.modulemap; sourceTree = "<group>"; };
+		EFD6770ADB3C035A160838C1D318845B /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyBoardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		F1755055284847274C47D93A9C0C02E1 /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F97F4783FC9FE8D5B4A50AD91A3E16 /* AMTagView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMTagView.h; path = Source/AMTagView.h; sourceTree = "<group>"; };
+		F62ABC5CD955A670FF0415C28212E12B /* PARBackspaceTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PARBackspaceTextField.m; path = PARTagPicker/Classes/PARBackspaceTextField.m; sourceTree = "<group>"; };
+		F6536E62E6294906FC706BDBA0F495E1 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		F97C53CAB4F0A200AD2E25D45C004476 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FB0ABBAFB7424BADE95C303D47771694 /* PARTagColorReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PARTagColorReference.h; path = PARTagPicker/Classes/PARTagColorReference.h; sourceTree = "<group>"; };
+		FB80BABA672E5371B3F1192E9C534F1D /* PARTagPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PARTagPicker-prefix.pch"; sourceTree = "<group>"; };
+		FE0B4A3C8430E8D9BAC52FE90BB00CF2 /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BDBF8A3805819176194C5F92CA052CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58D8CE77C41D7B308D15814802270BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6537C2E0FF5C263F86EE0D2BE62970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5FE1D3E743436EDF2CE536506E1F44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843AE7428E5B3DED9925A24805C08926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAB2D8C89D1855D26D1C77A675AA1E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8451E00AB87F986C64D1BD4E684C9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE0F1FE4B8568F35616D67BC7D97A49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7956F2792C1B62882F7A0B02BFC5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276887C3869F383DA42BC7A4D2DBEF3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59F7657BA850C37122B541EE769E234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065994EFFEFC15C1D5111C990A9907BB /* Foundation.framework in Frameworks */,
+				7C1738E3A6531DB76F957F8DED0FBB72 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E14F627086457FF6B9D3CD30A4302E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73E2D4BBD38DFE83DA0D4F32D82A17F2 /* Info.plist */,
+				BBAB029BABE9AE7C15DA25F286D4F23E /* Spring.modulemap */,
+				8D05906BFDC50EB62880C40E7C96DDEC /* Spring.xcconfig */,
+				7B5A89B6D0103830322877CF30637E31 /* Spring-Private.xcconfig */,
+				6F5FA4219C27344F5A01D3CDD86C3EAB /* Spring-dummy.m */,
+				0C474422B8C9FA86CCB7521477796B46 /* Spring-prefix.pch */,
+				4ACF5E472382B95FBDED0550E24C18DB /* Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spring";
+			sourceTree = "<group>";
+		};
+		2BFFA7FFD009E95DD5C6900060F52EA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78F365F82473CF9A4F567F625F895981 /* IQKeyboardManager.modulemap */,
+				DA3D293872BD2CA37C12E35E8E012F4B /* IQKeyboardManager.xcconfig */,
+				B2FD5179552E6F05E510BA1497A6D021 /* IQKeyboardManager-Private.xcconfig */,
+				107738FB3FB3C1725803A166E53F3AA0 /* IQKeyboardManager-dummy.m */,
+				A6CEF4702A13352AA02FD327D58E1FB0 /* IQKeyboardManager-prefix.pch */,
+				6ABA9A27135DFEEC0809F3FE6825529B /* IQKeyboardManager-umbrella.h */,
+				CB7E839CAE0FE644093F8477DFF78495 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		38AAE7B6EB96F07AC2C7B36C575773C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA5CEEDA7C5434EC08B0EDDBD08760DB /* AMTagListView */,
+				4336888193BF77E30C354DB9C9EF2804 /* IQKeyboardManager */,
+				E49645D79313AA93F078FCCB833C33A8 /* PARTagPicker */,
+				7473076E4378905C2A12711E030DA876 /* Spring */,
+				83BD09EA13915B6EBF487BB5846C39A6 /* YouTubePlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4336888193BF77E30C354DB9C9EF2804 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				ADE88438AF324B823ED21A0892F7C659 /* IQBarButtonItem.h */,
+				B8529E1983E685900CCEECFC37D6AA92 /* IQBarButtonItem.m */,
+				198E257103AB405314BD6FACE8E71DE3 /* IQKeyboardManager.h */,
+				EBF3AF76893AFC25E907702C8E3B1267 /* IQKeyboardManager.m */,
+				4130FF2B777F0C5394641C3A4DEB7132 /* IQKeyboardManagerConstants.h */,
+				222D17F2E562F0D3BBF05A1863A9CC92 /* IQKeyboardManagerConstantsInternal.h */,
+				D2B30E4FCB21A5DFB1F1371BCB0B43B1 /* IQKeyboardReturnKeyHandler.h */,
+				2438F9A45D6792EFE3E0EBCD10F44915 /* IQKeyboardReturnKeyHandler.m */,
+				07A52E624F3392417EE2DF542AE08A1D /* IQNSArray+Sort.h */,
+				3DDEE07DE065F955AE89DC30A7B6338F /* IQNSArray+Sort.m */,
+				D6E759714569DACDF9506D3682E616E2 /* IQSegmentedNextPrevious.h */,
+				159F54FE45AA658F90002EAC53025C0C /* IQSegmentedNextPrevious.m */,
+				C91990E71714F97447906274B9C21027 /* IQTextView.h */,
+				5A541D58FD6F8547CF9D1DA0A33C4D2D /* IQTextView.m */,
+				20A0C972EB6ECF86C0981C970CB1E87C /* IQTitleBarButtonItem.h */,
+				5FDD019AC722859EA116F2B9B9B0DC59 /* IQTitleBarButtonItem.m */,
+				CBEA5D8A965918347CA88F0309C6B216 /* IQToolbar.h */,
+				EFD6770ADB3C035A160838C1D318845B /* IQToolbar.m */,
+				78944065809CF09A00617DA30CA29B0F /* IQUITextFieldView+Additions.h */,
+				CBC355C9C85A9F16689D8A37EDB598E0 /* IQUITextFieldView+Additions.m */,
+				4651636FAB7853DEDED65C85DA67163D /* IQUIView+Hierarchy.h */,
+				AFCFDDFAEA3C7591B72DA479F3BCB6CE /* IQUIView+Hierarchy.m */,
+				A9A84DF1533C110298DE407EDFB7488C /* IQUIView+IQKeyboardToolbar.h */,
+				F6536E62E6294906FC706BDBA0F495E1 /* IQUIView+IQKeyboardToolbar.m */,
+				EC3663DD4A9AAC76D2E5D72C61BC670C /* IQUIViewController+Additions.h */,
+				54739E25B3AA86B00C6749E3A781819E /* IQUIViewController+Additions.m */,
+				63B1206A59C1FAE44D406ED38E0322EC /* IQUIWindow+Hierarchy.h */,
+				A672194B4F21FB84D39435BE82545AC6 /* IQUIWindow+Hierarchy.m */,
+				92290B06D3DD873CE7CA572F953F6DFE /* KeyboardManager.h */,
+				9182F4ABB9C5ADCCC09716770EBB2C8B /* Resources */,
+				2BFFA7FFD009E95DD5C6900060F52EA3 /* Support Files */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E3721C0F826A84C628241D32B48D233 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6106FA0626AF6849CC0B8FA5321C5814 /* Images.xcassets */,
+				C55DE6BD2C60A6FC893D8DB339FC4553 /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7473076E4378905C2A12711E030DA876 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				C96B6E188B9C19B02F7A48882B460FF1 /* AsyncButton.swift */,
+				644DF8F1DD47151F078FE505B9287BE4 /* AsyncImageView.swift */,
+				91059726DC94563BC9E3159625138DBE /* AutoTextView.swift */,
+				37F3D3BA73F633688D4B0A041AFDFEFF /* BlurView.swift */,
+				E5A10C62583F50B571B0FEE47047D3D8 /* DesignableButton.swift */,
+				7B639C1CF665CE74FBD6494B9A6633AC /* DesignableImageView.swift */,
+				714B835B557B3F72D89945095C23B1A4 /* DesignableLabel.swift */,
+				243BD3D3C3D5BDAF745916587420D963 /* DesignableTabBarController.swift */,
+				747EC9F42A32387A595E40BE8E658168 /* DesignableTextField.swift */,
+				C28517CF1749DF981B83A9F1D8542FF5 /* DesignableTextView.swift */,
+				17786A103C8CD0AAB191C5A9353EBBFC /* DesignableView.swift */,
+				E6F2691BBD99CF1196A45A047DB048B5 /* ImageLoader.swift */,
+				50AB8DC0029F616AC6A34A74FDAFD750 /* KeyboardLayoutConstraint.swift */,
+				4DF1373004EE5CF38BDD54B6746887D0 /* LoadingView.swift */,
+				108AA2994D7815017CD629C1646FFF61 /* Misc.swift */,
+				21C0F51565A5346A442CC17CBFEE3FBD /* SoundPlayer.swift */,
+				60B11326E117F16B77C4601D8FF6FC0B /* Spring.swift */,
+				9F9876D10625C1E9006562055D3BF119 /* SpringAnimation.swift */,
+				3F9CC2BB93470648CCEE42F06CF16EF1 /* SpringButton.swift */,
+				017820BFEFFA04C8392724C5BE0810A8 /* SpringImageView.swift */,
+				2834662A3665BDF7D2F61BA3631A66AD /* SpringLabel.swift */,
+				B47A46C4CDA26763F8A89977615BA750 /* SpringTextField.swift */,
+				73DD0FB30CDB217927C27FE7D04F75EE /* SpringTextView.swift */,
+				DAB550BFBDE25FD73B2CAF77A9F8FBBD /* SpringView.swift */,
+				83D313E70FABD3B63D31116FC62DDD68 /* TransitionManager.swift */,
+				9E4A04412784B2B3A8735C7186E1AE16 /* TransitionZoom.swift */,
+				FE0B4A3C8430E8D9BAC52FE90BB00CF2 /* UnwindSegue.swift */,
+				6E3721C0F826A84C628241D32B48D233 /* Resources */,
+				0E14F627086457FF6B9D3CD30A4302E9 /* Support Files */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				9C28B98048BFCF4FACFF2332C8FE4FE7 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				72B20F8A2F622094A3872C3C7A9859D3 /* Pods-umbrella.h */,
+				615087F83CCCA209C7DE6AEB5076F0A5 /* Pods.debug.xcconfig */,
+				DE1A28A4F32C5C955618AACA37B4C290 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				38AAE7B6EB96F07AC2C7B36C575773C2 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83BD09EA13915B6EBF487BB5846C39A6 /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				66864E734A4D1B1E8C414641B3943312 /* YouTubePlayer.swift */,
+				A408149BC0E4D8329659CCAB1A643867 /* Support Files */,
+			);
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		9182F4ABB9C5ADCCC09716770EBB2C8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2E195D2CB6FEF0C6ACE0E402E13C941 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A408149BC0E4D8329659CCAB1A643867 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4074A8446866B25B9EA189752E03C8AA /* Info.plist */,
+				7B1E334EF817CCA2B96A71C844768D56 /* YouTubePlayer.modulemap */,
+				E0B217DC3BACE436E0010AC4C3463318 /* YouTubePlayer.xcconfig */,
+				802C942A257B0BA6C954DFBC317FB9C6 /* YouTubePlayer-Private.xcconfig */,
+				C3E3B906450A8ACC936A7BB88B4CD507 /* YouTubePlayer-dummy.m */,
+				469E1785C3FD63696B5BCF1FAB67B5A9 /* YouTubePlayer-prefix.pch */,
+				D4C8C855BFD1895A1F65F6A9AB852E68 /* YouTubePlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YouTubePlayer";
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9DA17B53B51614EEFB0534802C8525C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8139B21D95E07D7F56B720F11A4F040 /* Info.plist */,
+				EC44CF6C10420B7AD0485C938469B98A /* PARTagPicker.modulemap */,
+				2191A817A553F7E05AF8D7EE20BF67DC /* PARTagPicker.xcconfig */,
+				E8949E3CBA66B5082AEE1FCF72071702 /* PARTagPicker-Private.xcconfig */,
+				2E1D8F31D6131FBDC88A2AFA86B8A144 /* PARTagPicker-dummy.m */,
+				FB80BABA672E5371B3F1192E9C534F1D /* PARTagPicker-prefix.pch */,
+				4ADF654C3911D371CDC60A1B4694C4C3 /* PARTagPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PARTagPicker";
+			sourceTree = "<group>";
+		};
+		BA5CEEDA7C5434EC08B0EDDBD08760DB /* AMTagListView */ = {
+			isa = PBXGroup;
+			children = (
+				02EABC9BA39C77F4E31760F8B4AFD167 /* AMTagListView.h */,
+				ABDD139A36F7B36687BF16B27FBAB869 /* AMTagListView.m */,
+				F2F97F4783FC9FE8D5B4A50AD91A3E16 /* AMTagView.h */,
+				5A9A781EC3B81C58F51F45B08AD86E7C /* AMTagView.m */,
+				F7ADEB029F12C31B46932D53B253B44F /* Support Files */,
+			);
+			path = AMTagListView;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				984115494FCC184CA05BD04EA890000F /* AMTagListView.framework */,
+				6DE76164C9B3604FCEDD20D2CDFBAE0F /* IQKeyboardManager.framework */,
+				052209D5527775698474AADED9CBE71A /* PARTagPicker.framework */,
+				3E14240A3E41E3BB5C3287B840A2F254 /* Pods.framework */,
+				451746300E823F97EB2F05F955A14B46 /* Spring.framework */,
+				F1755055284847274C47D93A9C0C02E1 /* YouTubePlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F97C53CAB4F0A200AD2E25D45C004476 /* Foundation.framework */,
+				1D4289B844A634BE5C9799D1F5BE90AE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E49645D79313AA93F078FCCB833C33A8 /* PARTagPicker */ = {
+			isa = PBXGroup;
+			children = (
+				16AE7368C69609F406F32B6E3DE11FA7 /* NSString+PARStrings.h */,
+				6FE864A4244AE386A926972386172E81 /* NSString+PARStrings.m */,
+				3D65FE9B3D6A5988A5D92E5E6784B715 /* PARBackspaceTextField.h */,
+				F62ABC5CD955A670FF0415C28212E12B /* PARBackspaceTextField.m */,
+				96C3AF6C24F2C3D3EE7D8874D79F4109 /* PARTagCollectionViewCell.h */,
+				E6934091E642E666A535DFEA41FFEE9B /* PARTagCollectionViewCell.m */,
+				FB0ABBAFB7424BADE95C303D47771694 /* PARTagColorReference.h */,
+				397841E8F2AB8C2DEFB2E4759F3BC750 /* PARTagColorReference.m */,
+				BD5AE6F116DF7766F3986DF008109C15 /* PARTagPickerViewController.h */,
+				E9F76D11D09B9B21BCE83E3AFAE635AA /* PARTagPickerViewController.m */,
+				BCB751359117B40EEED015479A345135 /* PARTextFieldCollectionViewCell.h */,
+				99FFD7CC4BBFC37F266926C0B63201F3 /* PARTextFieldCollectionViewCell.m */,
+				CD50B63DB64A16E0FFB8F0DADAFC62F8 /* UIView+NibInitable.h */,
+				51012A4A198CBB7C27E125F889D840D5 /* UIView+NibInitable.m */,
+				B9DA17B53B51614EEFB0534802C8525C /* Support Files */,
+			);
+			path = PARTagPicker;
+			sourceTree = "<group>";
+		};
+		F7ADEB029F12C31B46932D53B253B44F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E458EA8074A78E2BD74E811AF3E88C /* AMTagListView.modulemap */,
+				CA10372C771378FA6C1BB78E6851B7BF /* AMTagListView.xcconfig */,
+				7F33804AF255082DD48F3A789DDF8673 /* AMTagListView-Private.xcconfig */,
+				76569384727DBDBF7E4A2F37C90D79B6 /* AMTagListView-dummy.m */,
+				4D68673A6EB9758B79DC48A9EBD341EE /* AMTagListView-prefix.pch */,
+				1EFD2D11B9BAE31E7E6F6F3ADC508002 /* AMTagListView-umbrella.h */,
+				5B81BBEB4D0CF61DEB9E329E1A923FE6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMTagListView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09957C36D23599269F5CD01A4BAE3528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA50CAD42E541F78CEF783784315E04 /* AMTagListView-umbrella.h in Headers */,
+				D060D435EB38EB039BD199037BAFE6EE /* AMTagListView.h in Headers */,
+				1F15B117EDD3F3047E87939B49D6A335 /* AMTagView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401D70B54C91D23FB18E3A5F31A27AF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB64C87DF7AAA7BDC5F45F81AB8578 /* NSString+PARStrings.h in Headers */,
+				96D74AE1DE7997C5952702E1EA2269BE /* PARBackspaceTextField.h in Headers */,
+				FE39DCA7802A58CEE1E4AA4177404397 /* PARTagCollectionViewCell.h in Headers */,
+				7BE5301002D3B2268B5B8D745358574B /* PARTagColorReference.h in Headers */,
+				8A83AD4B7307DA03595221174896FA35 /* PARTagPicker-umbrella.h in Headers */,
+				BFDAB52BF672CCE0683D4993D3B5C4E4 /* PARTagPickerViewController.h in Headers */,
+				85B82A9211D0A1292C1E2326E10D2DE2 /* PARTextFieldCollectionViewCell.h in Headers */,
+				A41D503AFC4C8ECB5819C8AE21A68D0A /* UIView+NibInitable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5391BA586B5713B8A63682C63956CA36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C2332415AFEA8CB51C1BBF3957962A /* YouTubePlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B1A6E24E1D6C412DBAD0AB74390751 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1D68278C3DCCB3ECE505A7C48CC794 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF6F9FC10CCE7D596CF90FD647FBAFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3EE914E8E780D2FB1CA1A5B36AB343 /* IQBarButtonItem.h in Headers */,
+				81C2C74F6951078C51788BEEF15759A8 /* IQKeyboardManager-umbrella.h in Headers */,
+				840CFCCC657FEFFC9083C6D7B5CC8963 /* IQKeyboardManager.h in Headers */,
+				A2993C44E56287318EA597960FBD884D /* IQKeyboardManagerConstants.h in Headers */,
+				5DFB248DE01ED21678C05D7F3E6CBD23 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				CDD1F512447DB60977F157220BD42186 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				0A1DD9C0ABDB5AC362F72DB917BE6C2A /* IQNSArray+Sort.h in Headers */,
+				098984CF016F05A13457A3AF37361C29 /* IQSegmentedNextPrevious.h in Headers */,
+				48E642D4185955D8EB66A3D6F3347531 /* IQTextView.h in Headers */,
+				23F19AD76AF22DD09133A4CE563E43AB /* IQTitleBarButtonItem.h in Headers */,
+				F2EAC5DF1416777A88EFE08B1D295727 /* IQToolbar.h in Headers */,
+				3C9CDF0BB369CD3B12011925C5232EE2 /* IQUITextFieldView+Additions.h in Headers */,
+				A11E4B72F2A95F5B316F33D58E8219DB /* IQUIView+Hierarchy.h in Headers */,
+				7B6A1328869D6669FF7F7F1CCD93FF84 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				C87A9FF7FBAB8986E63DB8CE14A2A7A8 /* IQUIViewController+Additions.h in Headers */,
+				C3E1C804E067B601A51057984B193861 /* IQUIWindow+Hierarchy.h in Headers */,
+				5C7F45716DE048D6B633C18A0EC4D3D6 /* KeyboardManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DC239BCE4043C788B606F584C2E747 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF575AD6B47BCAFEB4BE7BF8B8F498D /* Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08A77C0FA46BB0E1E67C0FC76B2A9236 /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9486EAE66D6124619A2465CC8B7DE70D /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				174B91B4490CA33A6FB34BB4BE6048D8 /* Sources */,
+				0BDBF8A3805819176194C5F92CA052CF /* Frameworks */,
+				7BF6F9FC10CCE7D596CF90FD647FBAFC /* Headers */,
+				C647683EE26FED8E1251B3A62A254E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = 6DE76164C9B3604FCEDD20D2CDFBAE0F /* IQKeyboardManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22DB8A485A860289802BEBA425D9DA6B /* AMTagListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22395EA3BEB2A1887122E69B30D45E7C /* Build configuration list for PBXNativeTarget "AMTagListView" */;
+			buildPhases = (
+				C07EEC0AEB99FC3362A26BA78DF6A178 /* Sources */,
+				7C6537C2E0FF5C263F86EE0D2BE62970 /* Frameworks */,
+				09957C36D23599269F5CD01A4BAE3528 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMTagListView;
+			productName = AMTagListView;
+			productReference = 984115494FCC184CA05BD04EA890000F /* AMTagListView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4ADDC830F1F3957A877DC0A28F0CBD4E /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61544AA60217E4B4BA54112FF8563B1E /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				F6B8408D5CBE56BBC1C0DC03998D76CB /* Sources */,
+				BA7956F2792C1B62882F7A0B02BFC5FB /* Frameworks */,
+				21F0D8FA20A0BFC40C66582B29294976 /* Resources */,
+				98DC239BCE4043C788B606F584C2E747 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = 451746300E823F97EB2F05F955A14B46 /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1CD3BC6B9F8D9F111FB188D37B52AE6 /* YouTubePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7366A8E2518ED6DBA41FBB2B6A934987 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */;
+			buildPhases = (
+				52DE1E8FC3F2F8FE759A863020B8D858 /* Sources */,
+				8451E00AB87F986C64D1BD4E684C9552 /* Frameworks */,
+				5391BA586B5713B8A63682C63956CA36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubePlayer;
+			productName = YouTubePlayer;
+			productReference = F1755055284847274C47D93A9C0C02E1 /* YouTubePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C49C0DB8916D16F2F2521B01676FFB7D /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAC5EF89A7BBD70ABFD19B90D23C737 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				3F332B8856117CB409D4B1FC9B273A3B /* Sources */,
+				843AE7428E5B3DED9925A24805C08926 /* Frameworks */,
+				76B1A6E24E1D6C412DBAD0AB74390751 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D25E153834FB3D3A94BE74B7A27B27A /* PBXTargetDependency */,
+				1DC5B9A74A895DE0278F9B191895527A /* PBXTargetDependency */,
+				CF19C919417ECBCCF085F101994FE99F /* PBXTargetDependency */,
+				8B00C4AFD1020E5C53059C981FAFF25B /* PBXTargetDependency */,
+				CFDE75E12D4412A7AA65E3E17BF1EA08 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3E14240A3E41E3BB5C3287B840A2F254 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9652CD2F35BDC08492A82604707960F /* PARTagPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA71B66C8B339C0156446A50033A689 /* Build configuration list for PBXNativeTarget "PARTagPicker" */;
+			buildPhases = (
+				C23F49458BB91CCEFDE0C392324711C4 /* Sources */,
+				E59F7657BA850C37122B541EE769E234 /* Frameworks */,
+				401D70B54C91D23FB18E3A5F31A27AF0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PARTagPicker;
+			productName = PARTagPicker;
+			productReference = 052209D5527775698474AADED9CBE71A /* PARTagPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DB8A485A860289802BEBA425D9DA6B /* AMTagListView */,
+				08A77C0FA46BB0E1E67C0FC76B2A9236 /* IQKeyboardManager */,
+				C9652CD2F35BDC08492A82604707960F /* PARTagPicker */,
+				C49C0DB8916D16F2F2521B01676FFB7D /* Pods */,
+				4ADDC830F1F3957A877DC0A28F0CBD4E /* Spring */,
+				C1CD3BC6B9F8D9F111FB188D37B52AE6 /* YouTubePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F0D8FA20A0BFC40C66582B29294976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784ABE02E493AE3288BA2467DED9485 /* Images.xcassets in Resources */,
+				B3006549161976151BA776A6BD4F81F8 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C647683EE26FED8E1251B3A62A254E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145F2812EBB521B28B64ACE66D433D86 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174B91B4490CA33A6FB34BB4BE6048D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE15CAA10472B2196CD298C7E5FC46A0 /* IQBarButtonItem.m in Sources */,
+				D363EB8BDFC31E3834477F1D2768C313 /* IQKeyboardManager-dummy.m in Sources */,
+				0B1C8A94F7DC5AC2BE2104344CC309AB /* IQKeyboardManager.m in Sources */,
+				EB2FFE91C5180BDDD66AFC6DC1969B5F /* IQKeyboardReturnKeyHandler.m in Sources */,
+				462DAD07A37A542C1B2459ABF84B2FC1 /* IQNSArray+Sort.m in Sources */,
+				98DF50B7F014E5A93FE725B2E0A1C98F /* IQSegmentedNextPrevious.m in Sources */,
+				11CB5B6A6230EDDC7E6E8F4CC91E36FA /* IQTextView.m in Sources */,
+				181BB79FDEE23FDB7BD60C471C439387 /* IQTitleBarButtonItem.m in Sources */,
+				0DBBD9B3B9C21A5E3CB2792AAB7465EE /* IQToolbar.m in Sources */,
+				4148A72D1AFCB04DB7891825B7947A7F /* IQUITextFieldView+Additions.m in Sources */,
+				704F59523CD3B752D47BC1F31CAC9D60 /* IQUIView+Hierarchy.m in Sources */,
+				C041B42A2EDA3B9E6F7B62050B4EF1DA /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				FC32DC59FE3DDACD444A9D7354C59A86 /* IQUIViewController+Additions.m in Sources */,
+				F3BD34AA2DB66D8D915FDBE43E664807 /* IQUIWindow+Hierarchy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F332B8856117CB409D4B1FC9B273A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347EED8CFA5A1F52DEAE4F0735326A69 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE1E8FC3F2F8FE759A863020B8D858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A188B0BE40F1B60D7538D950DB4D363C /* YouTubePlayer-dummy.m in Sources */,
+				4796618F1C368B7F00468A0271F74355 /* YouTubePlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07EEC0AEB99FC3362A26BA78DF6A178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D296F9516D0C2603C46E2890509F550 /* AMTagListView-dummy.m in Sources */,
+				57846FF14A4B242B0F985BB7DD29004F /* AMTagListView.m in Sources */,
+				0D0E94D1BA00E14A28AD9EA85B3AAA4F /* AMTagView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23F49458BB91CCEFDE0C392324711C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462E210B0F8B9C1691E8064D6E57904A /* NSString+PARStrings.m in Sources */,
+				68658D3340A304AA7F22E1869F1F3004 /* PARBackspaceTextField.m in Sources */,
+				7D000142C3B08CD83B74A9178BBD9A3F /* PARTagCollectionViewCell.m in Sources */,
+				3A6E234CADC87DBC96205DDB29B4007B /* PARTagColorReference.m in Sources */,
+				3A770BDAD8EE07ADDD214AF1C22F490D /* PARTagPicker-dummy.m in Sources */,
+				AB601706C701CF057303565A22FEF664 /* PARTagPickerViewController.m in Sources */,
+				3DC9FC4FEB4D33544E422990E5C26E54 /* PARTextFieldCollectionViewCell.m in Sources */,
+				335B5EA8AD0401A16861F99F6FB99BCD /* UIView+NibInitable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B8408D5CBE56BBC1C0DC03998D76CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9098E669199273B2BD82EB82BE303A6 /* AsyncButton.swift in Sources */,
+				084A26CC6355487E7392E536B44D91A7 /* AsyncImageView.swift in Sources */,
+				281ACA5F324A1A67F397E55FC273EDD0 /* AutoTextView.swift in Sources */,
+				F25A1F5BF7035884B330E4CED131AD64 /* BlurView.swift in Sources */,
+				78054845576BD105C4505ACCB26C9A77 /* DesignableButton.swift in Sources */,
+				860E6166BDD6C7A2AF796EE6D7729971 /* DesignableImageView.swift in Sources */,
+				3B15962FE6CDF703F7517DBAF87AD6E4 /* DesignableLabel.swift in Sources */,
+				6898D00A17F0B59B9FB7D020642B0FE7 /* DesignableTabBarController.swift in Sources */,
+				7480D7F88F7D6C491AC709D6A2485553 /* DesignableTextField.swift in Sources */,
+				898D4E31759FB047AE22A1DC0AB765C8 /* DesignableTextView.swift in Sources */,
+				27156FA2EE58423E96F91E849944DE33 /* DesignableView.swift in Sources */,
+				EA99C5E65D55AA9CEF09E17D00546D5F /* ImageLoader.swift in Sources */,
+				CEA7DA76414B19CD1DF071D5250CA67E /* KeyboardLayoutConstraint.swift in Sources */,
+				C0D2C01A6C49699CFCDF22D7AEFE93AF /* LoadingView.swift in Sources */,
+				8AC90AA4994A6B17D0C52A0BA584FE07 /* Misc.swift in Sources */,
+				FDD11A163E0E272D38230B50C4202AEE /* SoundPlayer.swift in Sources */,
+				DA8ABA13298C7710C0415705CF15A95F /* Spring-dummy.m in Sources */,
+				858ED576E4AADE88999137E0AA25F219 /* Spring.swift in Sources */,
+				AFC0905E8B9FD7BD96E3305BEC6A408F /* SpringAnimation.swift in Sources */,
+				4AC63369F44D2E1FF5754F4817036BE9 /* SpringButton.swift in Sources */,
+				B1526F737F8754B9637038A81C19492A /* SpringImageView.swift in Sources */,
+				B5733524751399DED1A701C15EF79176 /* SpringLabel.swift in Sources */,
+				4AEC16254AB33CD52714CBF96CB8A50D /* SpringTextField.swift in Sources */,
+				E9D54407268E0C066760E9A3A283F8FC /* SpringTextView.swift in Sources */,
+				0C926B1D844554EFAF143C26682CB608 /* SpringView.swift in Sources */,
+				B37AD3E2F87A47B9EB5F0D023F33FF1D /* TransitionManager.swift in Sources */,
+				E445E02BAE699D3CD97213973DCDC5FE /* TransitionZoom.swift in Sources */,
+				E6D355B8760661369050BD92BA9CBC5E /* UnwindSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D25E153834FB3D3A94BE74B7A27B27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMTagListView;
+			target = 22DB8A485A860289802BEBA425D9DA6B /* AMTagListView */;
+			targetProxy = 3BB8A1B61A349448041A1294138BD271 /* PBXContainerItemProxy */;
+		};
+		1DC5B9A74A895DE0278F9B191895527A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = 08A77C0FA46BB0E1E67C0FC76B2A9236 /* IQKeyboardManager */;
+			targetProxy = 48DE8FDBAFD71665454A5C39B1DCF57D /* PBXContainerItemProxy */;
+		};
+		8B00C4AFD1020E5C53059C981FAFF25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spring;
+			target = 4ADDC830F1F3957A877DC0A28F0CBD4E /* Spring */;
+			targetProxy = 85605B7D190EC80D7AB71C946740FEA2 /* PBXContainerItemProxy */;
+		};
+		CF19C919417ECBCCF085F101994FE99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PARTagPicker;
+			target = C9652CD2F35BDC08492A82604707960F /* PARTagPicker */;
+			targetProxy = 4783389E92B1CC153D3ABB528AD7AAC8 /* PBXContainerItemProxy */;
+		};
+		CFDE75E12D4412A7AA65E3E17BF1EA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YouTubePlayer;
+			target = C1CD3BC6B9F8D9F111FB188D37B52AE6 /* YouTubePlayer */;
+			targetProxy = 0CDFA8C7211EB7AC44085158753B22C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09AC568D76FD143DB02286304B35C7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2FD5179552E6F05E510BA1497A6D021 /* IQKeyboardManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.2.4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27FA5185530394739C2DB216BA75A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802C942A257B0BA6C954DFBC317FB9C6 /* YouTubePlayer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		349CA690A1C97816930D069A7C58B08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615087F83CCCA209C7DE6AEB5076F0A5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A9F0BEBEF41C82DFFB8BE7BC6047CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5A89B6D0103830322877CF30637E31 /* Spring-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC26CB31248E5DFF1F8372EA18D5F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8949E3CBA66B5082AEE1FCF72071702 /* PARTagPicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PARTagPicker/PARTagPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PARTagPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PARTagPicker/PARTagPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PARTagPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6486666C40ADB0AD61BDDE81CA92E3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F33804AF255082DD48F3A789DDF8673 /* AMTagListView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.8.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.8.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMTagListView/AMTagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMTagListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMTagListView/AMTagListView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AMTagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70552E7F8D39D5A4EDD4C5666C3A8A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8949E3CBA66B5082AEE1FCF72071702 /* PARTagPicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PARTagPicker/PARTagPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PARTagPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PARTagPicker/PARTagPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PARTagPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72588853E086CEF33857E336F48050AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F33804AF255082DD48F3A789DDF8673 /* AMTagListView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.8.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.8.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMTagListView/AMTagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMTagListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMTagListView/AMTagListView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AMTagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8877AEAB4255538D7511BABC4EA310AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5A89B6D0103830322877CF30637E31 /* Spring-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89B8FFD55E6477B43ABBAC12353A20E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2FD5179552E6F05E510BA1497A6D021 /* IQKeyboardManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.2.4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EBECAC01E3DC6647E86A2338C71F420E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1A28A4F32C5C955618AACA37B4C290 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EED0AF335AD44F0D9324DEC1ED6DE59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802C942A257B0BA6C954DFBC317FB9C6 /* YouTubePlayer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22395EA3BEB2A1887122E69B30D45E7C /* Build configuration list for PBXNativeTarget "AMTagListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72588853E086CEF33857E336F48050AF /* Debug */,
+				6486666C40ADB0AD61BDDE81CA92E3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAC5EF89A7BBD70ABFD19B90D23C737 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349CA690A1C97816930D069A7C58B08D /* Debug */,
+				EBECAC01E3DC6647E86A2338C71F420E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA71B66C8B339C0156446A50033A689 /* Build configuration list for PBXNativeTarget "PARTagPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC26CB31248E5DFF1F8372EA18D5F5F /* Debug */,
+				70552E7F8D39D5A4EDD4C5666C3A8A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61544AA60217E4B4BA54112FF8563B1E /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8877AEAB4255538D7511BABC4EA310AD /* Debug */,
+				3A9F0BEBEF41C82DFFB8BE7BC6047CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7366A8E2518ED6DBA41FBB2B6A934987 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED0AF335AD44F0D9324DEC1ED6DE59A /* Debug */,
+				27FA5185530394739C2DB216BA75A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9486EAE66D6124619A2465CC8B7DE70D /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AC568D76FD143DB02286304B35C7D2 /* Debug */,
+				89B8FFD55E6477B43ABBAC12353A20E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

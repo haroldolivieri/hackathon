@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBLoginController" customModule="Girafalles" customModuleProvider="target">
+            <connections>
+                <outlet property="facebookButton" destination="vVp-dc-YeW" id="N8P-12-8E7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bqz-PP-FUx">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5M-Pr-FkT" userLabel="SuperView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2La-Ey-PSN" userLabel="LogoView">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-girafalles" translatesAutoresizingMaskIntoConstraints="NO" id="KgZ-vK-95k">
+                                    <rect key="frame" x="150" y="99.5" width="300" height="200"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Girafalles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kq-em-5PI">
+                                    <rect key="frame" x="16" y="344" width="568" height="40"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="29"/>
+                                    <color key="textColor" red="0.20784313730000001" green="0.23529411759999999" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.27450980390000002" green="0.66666666669999997" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="2Kq-em-5PI" secondAttribute="trailing" constant="16" id="EMx-y2-vR1"/>
+                                <constraint firstAttribute="width" secondItem="KgZ-vK-95k" secondAttribute="width" multiplier="2:1" id="Gud-YN-tkN"/>
+                                <constraint firstAttribute="bottom" secondItem="2Kq-em-5PI" secondAttribute="bottom" constant="16" id="H7e-Db-k5K"/>
+                                <constraint firstAttribute="centerY" secondItem="KgZ-vK-95k" secondAttribute="centerY" id="O46-VE-XBO"/>
+                                <constraint firstAttribute="height" secondItem="KgZ-vK-95k" secondAttribute="height" multiplier="2:1" id="PG4-zy-9hl"/>
+                                <constraint firstItem="2Kq-em-5PI" firstAttribute="leading" secondItem="2La-Ey-PSN" secondAttribute="leading" constant="16" id="cOW-FJ-Ohc"/>
+                                <constraint firstAttribute="centerX" secondItem="KgZ-vK-95k" secondAttribute="centerX" id="zE0-PX-fiZ"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kkD-Nk-3IV" userLabel="FormView">
+                            <rect key="frame" x="0.0" y="400" width="600" height="200"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mc-V6-VQ2" userLabel="ShadowView">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="4"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="4" id="VHp-Fm-cK0"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVp-dc-YeW" userLabel="button-facebook" customClass="FBSDKLoginButton">
+                                    <rect key="frame" x="100" y="78" width="400" height="44"/>
+                                    <color key="backgroundColor" red="0.29411764705882354" green="0.49019607843137253" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="Sze-4i-uXp"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                    <state key="normal" title="Entrar com Facebook">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.99215686274509807" green="0.73725490196078436" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="centerX" secondItem="vVp-dc-YeW" secondAttribute="centerX" id="ZW0-Y1-XC3"/>
+                                <constraint firstAttribute="width" secondItem="vVp-dc-YeW" secondAttribute="width" multiplier="3:2" id="Ze9-kp-3bY"/>
+                                <constraint firstItem="0mc-V6-VQ2" firstAttribute="top" secondItem="kkD-Nk-3IV" secondAttribute="top" id="chj-sm-Jza"/>
+                                <constraint firstAttribute="trailing" secondItem="0mc-V6-VQ2" secondAttribute="trailing" id="e4F-av-WH1"/>
+                                <constraint firstItem="0mc-V6-VQ2" firstAttribute="leading" secondItem="kkD-Nk-3IV" secondAttribute="leading" id="ebc-tL-F9k"/>
+                                <constraint firstAttribute="centerY" secondItem="vVp-dc-YeW" secondAttribute="centerY" id="klv-Rc-spI"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="2La-Ey-PSN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="4sv-FR-JAC"/>
+                        <constraint firstItem="kkD-Nk-3IV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9Ah-Kl-Dvt"/>
+                        <constraint firstAttribute="bottom" secondItem="kkD-Nk-3IV" secondAttribute="bottom" id="9xF-7i-Kk2"/>
+                        <constraint firstItem="2La-Ey-PSN" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="2:3" id="LAE-pv-1zD"/>
+                        <constraint firstAttribute="trailing" secondItem="2La-Ey-PSN" secondAttribute="trailing" id="cyp-Gl-fUY"/>
+                        <constraint firstItem="kkD-Nk-3IV" firstAttribute="top" secondItem="2La-Ey-PSN" secondAttribute="bottom" id="l9g-gj-c2p"/>
+                        <constraint firstAttribute="trailing" secondItem="kkD-Nk-3IV" secondAttribute="trailing" id="q5C-yj-jz2"/>
+                        <constraint firstItem="2La-Ey-PSN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tGV-6V-Ir7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="i5M-Pr-FkT" firstAttribute="leading" secondItem="bqz-PP-FUx" secondAttribute="leading" id="KSW-PA-m4i"/>
+                <constraint firstItem="i5M-Pr-FkT" firstAttribute="top" secondItem="bqz-PP-FUx" secondAttribute="top" id="Y7V-Up-cS9"/>
+                <constraint firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="cAt-kF-eCd"/>
+                <constraint firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="jO1-Pe-76i"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo-girafalles" width="134" height="175"/>
+    </resources>
+</document>

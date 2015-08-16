@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Login Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CBLoginController" customModule="Girafalles" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="Jwn-v2-89h" kind="show" identifier="toRegister" id="DDT-vf-rpd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388" y="462"/>
+        </scene>
+        <!--Register Controller-->
+        <scene sceneID="tRx-Ul-98g">
+            <objects>
+                <viewController id="Jwn-v2-89h" customClass="CBRegisterController" customModule="Girafalles" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BGl-bq-dqn"/>
+                        <viewControllerLayoutGuide type="bottom" id="hUd-e2-2U7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dqF-Xs-KHy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="CRW-s5-Ul7" kind="show" identifier="toHome" id="IDq-Yj-Z6z"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="toLogin" id="X07-XY-Soa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Up3-j8-RYd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="462"/>
+        </scene>
+        <!--DM Scene-->
+        <scene sceneID="jHF-h2-cx9">
+            <objects>
+                <viewController title="DM Scene" id="3BL-2R-FuO" customClass="CBDMController" customModule="Girafalles" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U69-0w-eqN"/>
+                        <viewControllerLayoutGuide type="bottom" id="53m-ZH-dTN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k7S-L0-NZ3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mensagens" image="icon-message" id="7vI-lA-j1B"/>
+                    <connections>
+                        <segue destination="536-YX-AQP" kind="show" identifier="toMessage" id="DAM-77-HdK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQr-si-Fod" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2544" y="793"/>
+        </scene>
+        <!--Message Controller-->
+        <scene sceneID="Cnk-eI-oR0">
+            <objects>
+                <viewController id="536-YX-AQP" customClass="CBMessageController" customModule="Girafalles" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MT1-dA-24n"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vie-en-Rmv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7aC-Gk-BzQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kcV-K6-cIC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3232" y="793"/>
+        </scene>
+        <!--More Scene-->
+        <scene sceneID="tIS-Ai-XFU">
+            <objects>
+                <viewController title="More Scene" id="2s9-5m-MWi" customClass="CBMoreController" customModule="Girafalles" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9I7-HI-D3f"/>
+                        <viewControllerLayoutGuide type="bottom" id="bcZ-Wv-crQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="76r-vO-vOe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mais" image="icon-more" id="yGl-HR-lbz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aWl-dP-NpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2544" y="1466"/>
+        </scene>
+        <!--Map Scene-->
+        <scene sceneID="maB-9N-Uvv">
+            <objects>
+                <viewController storyboardIdentifier="mapView" title="Map Scene" id="epd-Fh-weJ" customClass="CBMapController" customModule="Girafalles" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ab7-HQ-cGj"/>
+                        <viewControllerLayoutGuide type="bottom" id="DR8-ta-kQD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9KI-db-6C9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Buscar" image="icon-search" id="bBC-br-RXd"/>
+                    <connections>
+                        <segue destination="jVQ-8O-VtX" kind="presentation" identifier="toProfile" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="eft-b2-4rI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ESr-RJ-dLx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2544" y="131"/>
+        </scene>
+        <!--Profile Controller-->
+        <scene sceneID="6zf-yA-toS">
+            <objects>
+                <viewController id="jVQ-8O-VtX" customClass="CBProfileController" customModule="Girafalles" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TnJ-AO-PtS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jhj-si-As5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JXA-eW-5O6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t1z-4x-FEG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3232" y="136"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="VdU-L2-6qt">
+            <objects>
+                <tabBarController id="CRW-s5-Ul7" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="zH0-Rx-RTt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.20784313730000001" green="0.23529411759999999" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.99215686270000003" green="0.73725490199999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="epd-Fh-weJ" kind="relationship" relationship="viewControllers" id="8lG-5T-CAF"/>
+                        <segue destination="2s9-5m-MWi" kind="relationship" relationship="viewControllers" id="s8w-Yt-kMm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TdE-d8-u4d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1724" y="462"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon-message" width="34" height="20"/>
+        <image name="icon-more" width="34" height="8"/>
+        <image name="icon-search" width="28" height="28"/>
+    </resources>
+</document>
